@@ -1,0 +1,15 @@
+[package]
+name = "rhwid"
+description = "Basic HWID Grabbing with encryption support."
+version = "0.1.0"
+authors = [ "varsity <varsity@duck.com>" ]
+edition = "2021"
+
+[lib]
+name = "rhwid"
+path = "src/lib.rs"
+
+[dependencies]
+magic-crypt = "3.1.12"
+sysinfo = "0.27.1"
+bitmask-enum = "2.1.0"
