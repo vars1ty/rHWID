@@ -10,6 +10,6 @@ name = "rhwid"
 path = "src/lib.rs"
 
 [dependencies]
-magic-crypt = "3.1.12"
-sysinfo = "0.27.1"
-bitmask-enum = "2.1.0"
+bitmask-enum = "*"
+magic-crypt = "*"
+sysinfo = "*"
